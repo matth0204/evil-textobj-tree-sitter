@@ -31,3 +31,9 @@
 
 (if_statement
  consequence: (_) @conditional.inner) @conditional.outer
+
+(else_clause
+ (_) @conditional.inner) @conditional.outer
+
+(compound_statement
+ (_) @block.inner) @block.outer
